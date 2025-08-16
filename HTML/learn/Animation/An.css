@@ -1,0 +1,109 @@
+.div{
+
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation: HO 8s infinite alternate linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative
+}
+
+.M{
+
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation: slideDiagonal 8s infinite alternate ease-out;
+    position: absolute;
+    top: 0;
+}
+
+.N{
+
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation: V 8s infinite alternate ease-out;
+    position: absolute;
+    top: 0;
+    left: 1000px;
+}
+
+
+@keyframes HO{
+
+    0%{
+
+      rotate: 0deg;
+      translate: 0px;    }
+
+    50%{
+
+        background-color: yellow;
+    }
+
+    100%{
+
+        rotate:360deg;
+        translate: 1100px;
+        background-color: red;
+
+    }
+}
+
+.c1{
+
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    animation: HI 4s infinite alternate linear;
+}
+
+@keyframes HI{
+
+    from{
+
+      rotate: 0deg;
+      scale: 1;
+      opacity: 1;
+          }
+    to{
+
+        rotate:360deg;
+        scale: 1.5;
+        opacity: 0.5;
+        
+    }
+}
+
+@keyframes slideDiagonal {
+  from {
+    transform: translate(0, 0);
+  }
+  50%{
+    background-color: aquamarine;
+  }
+  to {
+    transform: translate(500px, 500px);
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+@keyframes V {
+  from {
+    transform: translate(0, 0);
+  }
+  50%{
+    background-color: aquamarine;
+  }
+  to {
+    transform: translate-(-500px, -500px);
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+/* body{
+  background-color: black;
+} */

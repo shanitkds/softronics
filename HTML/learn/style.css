@@ -1,0 +1,51 @@
+body {
+
+  background-color: blue;
+margin: 0;
+}
+
+.P {
+  width: 500px;
+  height:500px;
+  background-color: red;
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
+
+.C{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  top: 50px;
+}
+.F{
+
+  position: fixed;
+  top: 100px;
+  left: 600px;
+  width: 100px;
+ height: 100px;
+ background-color: green; 
+}
+.S{
+  position: sticky;
+  top: 100px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+
+
+}
+
+.R{
+  background-color: rgb(29, 150, 206);
+  width: 100px;
+  height: 100px;
+  overflow-wrap: break-word;  
+  overflow: auto;
+  
+
+}

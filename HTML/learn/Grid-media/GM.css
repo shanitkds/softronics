@@ -1,0 +1,71 @@
+body{
+
+    /* background-color: blue; */
+    display: grid;  
+    height: 100vh;
+    grid-template-columns: (1,1fr);
+    grid-template-rows: (3,1fr);
+    gap: 10px; 
+    padding: 10px;
+
+}
+
+.A{
+
+    
+background-color: #df4545;
+}
+
+.B{
+
+
+    background-color: rgb(106, 106, 106);
+}
+    
+.C{
+
+   
+    background-color: rgb(44, 44, 119);
+}
+
+.D{
+
+   
+    background-color: rgb(7, 7, 80);
+}
+
+.E{
+
+   
+    background-color: rgb(25, 39, 53);
+}
+
+.F{
+
+   
+    background-color: rgb(80, 88, 0);
+}
+
+
+
+
+@media (min-width:300px) and (max-width:500px){
+
+    body{
+
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    
+}
+
+@media (min-width:500px){
+
+    body{
+
+         grid-template-columns: repeat(3,1fr);
+         
+    }
+}
+
+

@@ -1,0 +1,57 @@
+ul{
+    list-style:none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.search{
+    width: 40rem;
+    height: 2rem;
+    border-radius: 30px;
+    padding: 0 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(241, 241, 241);
+
+    
+}
+
+.search:hover{
+    border: 1px solid black ;
+}
+.link{
+    color: rgb(216, 193, 193);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: rgb(81, 182, 182);
+}
+
+li{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+.Nav-items{
+    padding:10px ;
+}
+
+.Nav-items:hover{
+    background-color: aliceblue;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.nav-main{
+    width: 100vw;
+    position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  height: rem;
+  background-color: white
+  
+}

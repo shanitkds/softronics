@@ -1,0 +1,25 @@
+.text-main{
+    background-color: rgb(233, 228, 228);
+    text-align: center;
+     height: 400px;
+    margin-top: 300px;
+   
+}
+
+.text-main h1{
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    margin-top: 50px;
+    
+    
+}
+
+.text-main p{
+    font-size: 1.3rem;
+   
+}
+
+.a{
+    padding: 50px 0;
+}
