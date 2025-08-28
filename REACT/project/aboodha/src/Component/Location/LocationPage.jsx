@@ -18,7 +18,7 @@ function LocationPage() {
       <div className="w-full max-w-4xl h-96 shadow-lg rounded-md overflow-hidden">
         <iframe
           title="Tailoring Shop Location"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019828915046!2d-122.41941528468125!3d37.77492977975901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c0a6e63bb%3A0x4c42b2a9c623f29b!2sSan+Francisco%2C+CA!5e0!3m2!1sen!2sus!4v1692530000000!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d250522.9712904749!2d75.8970008!3d11.1564005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba63343bde14fd3%3A0xfdd0a99f131e2c32!2sDomino!5e0!3m2!1sen!2sin!4v1755971091106!5m2!1sen!2sin"
           width="100%"
           height="100%"
           style={{ border: 0 }}

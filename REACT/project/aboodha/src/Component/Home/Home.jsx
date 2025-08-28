@@ -9,13 +9,13 @@ function NavBar() {
     return (
         <div
     style={{ backgroundImage: `url(${Bgimage})` }}
-    className="relative w-full h-[550px] bg-no-repeat bg-cover bg-top"
+    className="relative w-full h-[550px] bg-no-repeat bg-cover bg-top "
 >
     {/* Dark overlay */}
     <div className="absolute inset-0 bg-black/50"></div>
 
     {/* Content */}
-    <div className="relative z-10 flex flex-col items-start justify-center h-full pl-12 space-y-4">
+    <div className="relative z-10 flex flex-col items-start justify-center h-full pl-12 space-y-4" data-aos="fade-right">
         {/* Heading */}
         <h1 className="text-5xl font-bold text-white">Aboodha Tailoring</h1>
 

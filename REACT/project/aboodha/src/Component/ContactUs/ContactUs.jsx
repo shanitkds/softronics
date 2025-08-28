@@ -82,7 +82,7 @@ function ContactUs() {
 
       </div>
     </div>
-    <div>
+    <div data-aos="zoom-out-right">
       <LocationPage/>
     </div>
     </div>

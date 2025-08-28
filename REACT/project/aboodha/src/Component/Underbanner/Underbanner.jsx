@@ -28,10 +28,7 @@ function Underbanner() {
 
       ))}
 
-      <button className="absolute px-8 py-4  bg-white text-black rounded-lg shadow-md font-semibold
-                         hover:bg-black hover:text-white mt-100 transition-all duration-300 left-1/2 transform -translate-x-1/2">
-        Shop Now
-      </button>
+      
     </div>
   );
 }

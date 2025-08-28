@@ -50,12 +50,12 @@ function ProductCart() {
                         Filtter
                     </div>
                     <div >
-                    <FiltterButten value='Pant' />
-                    <FiltterButten value='Shirt' />
-                    <FiltterButten value='Uniform' />
-                    <FiltterButten value='kurtha' />
-                    <FiltterButten value='Thobe' />
-                    <FiltterButten value='Wedding Outfit' />
+                    <FiltterButten value='Pant' name='Pant' />
+                    <FiltterButten value='Shirt' name='Shirt' />
+                    <FiltterButten value='Uniform' name='Uniform' />
+                    <FiltterButten value='kurtha' name='kurtha' />
+                    <FiltterButten value='Thobe' name='Thobe' />
+                    <FiltterButten value='WeddingOutfit' name='Wedding Outfit' />
                     
                 </div>
                 </div>

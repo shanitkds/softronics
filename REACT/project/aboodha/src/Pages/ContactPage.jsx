@@ -2,6 +2,7 @@ import React from 'react'
 import RealNav from '../Component/RealNav/RealNav'
 import ContactUs from '../Component/ContactUs/ContactUs'
 import Footer from '../Component/Footer/Footer'
+import OderSection from '../Component/Order/OderSection/OderSection'
 
 function ContactPage() {
   return (
@@ -9,6 +10,7 @@ function ContactPage() {
         <RealNav/>
         <ContactUs/>
         <Footer/>
+        {/* <OderSection/> */}
     </div>
   )
 }

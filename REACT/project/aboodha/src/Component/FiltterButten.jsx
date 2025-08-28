@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-function FiltterButten({value}) {
+function FiltterButten({value,name}) {
     const navigate=useNavigate()
     return (
         <div onClick={()=>navigate(`/products/${value}`)}>
@@ -10,7 +10,7 @@ function FiltterButten({value}) {
                      cursor-pointer transition transform hover:scale-105 hover:shadow-lg active:scale-95 
                      focus:outline-none ml-5 mt-4"
             >
-                <p className="text-gray-700 font-semibold">{value}</p>
+                <p className="text-gray-700 font-semibold">{name}</p>
             </div>
         </div>
     )

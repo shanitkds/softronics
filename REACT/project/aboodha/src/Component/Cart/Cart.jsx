@@ -31,7 +31,7 @@ function Cart() {
 
                 ))) : (
                     <div className="w-full h-screen flex items-center justify-center">
-                        <p className="text-gray-500 text-[200px] font-semibold">No Data</p>
+                        <p className="text-gray-500 text-[200px] font-semibold">No Product</p>
                     </div>
                 )}
 

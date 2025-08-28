@@ -1,4 +1,3 @@
-import React from 'react'
 import NavBar from '../Component/Home/Home'
 import OpenPage from '../Component/Openpage/OpenPage'
 import Inform from '../Component/Inform/Inform'
@@ -8,6 +7,7 @@ import Location from '../Component/Location/LocationPage'
 import RealNav from '../Component/RealNav/RealNav'
 
 function HomePage() {
+  
   return (
     <div>
       <RealNav />
@@ -16,7 +16,7 @@ function HomePage() {
       <OpenPage />
       <Underbanner />
       <Location />
-      <Footer />
+      <Footer  />
     </div>
   )
 }

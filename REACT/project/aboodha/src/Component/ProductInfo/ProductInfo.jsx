@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import products from '../Store/Store'
 import { button, div } from 'framer-motion/client'
 import { AddCartContext } from '../Store/Cartcontext'
@@ -10,13 +10,13 @@ import DeliveryDetails from '../DeliveryDetails'
 function ProductInfo() {
   const { id } = useParams()
   const [productInfo, setProductInfo] = useState([])
-  const { cart, setCart } = useContext(AddCartContext)
+  const { cart, setCart,order,setOrder} = useContext(AddCartContext)
   const [selected, setSelected] = useState('')
+  const navigate=useNavigate()
 
   useEffect(() => {
     const product = products.find((p) => p.id.toString() === id);
     setProductInfo(product)
-
 
   }, [id])
 
@@ -30,7 +30,17 @@ function ProductInfo() {
   }
 
 
-  console.log(cart);
+  const Order=()=>{
+    if (!selected) {
+      alert('Please select The Size')
+      return;
+    }
+    setOrder({...productInfo,selectSize:selected})
+    console.log(order);
+     navigate('/adress')
+  }
+
+  
   return (
     <div className='flex'>
       <div className="ml-20 h-screen w-[400px] bg-white flex flex-col items-center justify-start gap-6 pt-45">
@@ -45,7 +55,7 @@ function ProductInfo() {
 
       
         <div className="flex gap-4">
-          <button className="px-4 py-2 border bg-amber-100 border-amber-100 text-black rounded hover:bg-amber-100 hover:text-white">
+          <button className="px-4 py-2 border bg-amber-100 border-amber-100 text-black rounded hover:bg-amber-100 hover:text-white" onClick={Order}>
             Order
           </button>
           <button className="px-4 py-2 border border-gray-300 text-black rounded  hover:bg-amber-100 hover:text-white" onClick={add}>
