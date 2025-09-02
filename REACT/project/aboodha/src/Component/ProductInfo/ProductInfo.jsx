@@ -42,8 +42,8 @@ function ProductInfo() {
 
   
   return (
-    <div className='flex'>
-      <div className="ml-20 h-screen w-[400px] bg-white flex flex-col items-center justify-start gap-6 pt-45">
+    <div className='pt-20 sm:flex sm:pt-0'>
+      <div className="ml-20 h-[650px] w-[400px] bg-white flex flex-col items-center justify-start gap-6 pt-15 sm:pt-35 sm:h-screen">
         {/* Product Image Box */}
         <div className="border-4 border-amber-100 p-3">
           <img
@@ -65,7 +65,7 @@ function ProductInfo() {
       </div>
       {/* --------------------------------------------- */}
       <div className=''>
-        <div className="pt-60 pl-34 max-w-md">
+        <div className="pt-20 sm:pt-40 pl-34 sm:pl-50 max-w-md">
          
           <div className="text-lg font-semibold text-gray-800 mb-2">
             {productInfo.brand}, {productInfo.material}

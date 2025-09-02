@@ -9,20 +9,27 @@ import wedding from '../../../public/WEDDING.png'
 
 function OpenPage() {
   return (
-    <div >
-      <div className='flex p-3 gap-15 ml-15' data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom">
+    <div className="px-30 py-6">
+      
+      <div
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-6"
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
+      >
         <BannerCart img={shirt} category="Shirt" />
         <BannerCart img={pant} category="Pant" />
         <BannerCart img={Uniform} category="Uniform" />
       </div>
-      <div className='flex p-3 gap-15 ml-15'
-      data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom"
+
+     
+      <div
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6"
+        data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom"
       >
-        <BannerCart img={kurtha} category="kurtha" />
+        <BannerCart img={kurtha} category="Kurtha" />
         <BannerCart img={Thobe} category="Thobe" />
-        <BannerCart img={wedding} category="WeddingOutfit" />
+        <BannerCart img={wedding} category="Wedding Outfit" />
       </div>
     </div>
   )

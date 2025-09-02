@@ -16,19 +16,16 @@ function Underbanner() {
   }, []);
 
   return (
-    <div className="relative w-full h-[550px] my-10 overflow-hidden">
+    <div className="relative w-full h-[550px] my-10 overflow-hidden  gap-20">
       {arr.map((img, index) => (
         <img
           key={index}
           src={img}
           alt=""
-          className={`absolute top-0 left-0 w-300 h-[550px] object-cover object-top transition-opacity duration-1000 ml-40
-              ${index === current ? 'opacity-100' : 'opacity-0'}`}
+          className={`absolute top-0 left-0 w-full h-full object-cover object-top transition-opacity duration-1000 
+            ${index === current ? 'opacity-100' : 'opacity-0'}`}
         />
-
       ))}
-
-      
     </div>
   );
 }

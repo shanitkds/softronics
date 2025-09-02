@@ -3,7 +3,7 @@ import { FaFacebookF, FaInstagram, FaTimes, FaGithub, FaYoutube } from 'react-ic
 
 function Footer() {
   return (
-    <footer className="bg-[#e2e2f0] text-gray-800 py-6 ">
+    <footer className="bg-[#e2e2f0] text-gray-800 py-6 w-screen ">
       <div className="container mx-auto flex flex-col items-center">
         {/* Social icons */}
         <div className="flex gap-6 mb-4">

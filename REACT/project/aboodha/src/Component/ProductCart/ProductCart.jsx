@@ -45,7 +45,7 @@ function ProductCart() {
 
             </div> */}
             <div className='flex relative'>
-                <div className='bg-[#f0e8e8] fixed w-75 top-0  h-full pt-21'>
+                <div className='bg-[#f0e8e8] fixed w-75 top-0  h-full pt-21 hidden sm:block'>
                     <div className='text-4xl pl-18 '>
                         Filtter
                     </div>
@@ -59,7 +59,7 @@ function ProductCart() {
                     
                 </div>
                 </div>
-                <div className='flex flex-wrap ml-75 absolute pt-16' >
+                <div className='flex flex-wrap ml-6 sm:ml-75 absolute pt-16' >
                     {filterProduct.map((prod) => (
                         <div className='w-70 p-4 ' onClick={()=>navigation(`/ProductInfoPage/${prod.id}`)}>
                             <div>
